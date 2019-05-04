@@ -1,15 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemText from "@material-ui/core/ListItemText";
+
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
+
+import Card from "@material-ui/core/Card";
+import CardActions from "@material-ui/core/CardActions";
+import CardContent from "@material-ui/core/CardContent";
 
 const styles = theme => ({
   root: {
@@ -45,6 +47,20 @@ const styles = theme => ({
   },
   button: {
     marginLeft: 100
+  },
+  card: {
+    minWidth: 275
+  },
+  bullet: {
+    display: "inline-block",
+    margin: "0 2px",
+    transform: "scale(0.8)"
+  },
+  title: {
+    fontSize: 14
+  },
+  pos: {
+    marginBottom: 12
   }
 });
 
@@ -65,11 +81,26 @@ function Success(props) {
           >
             <MenuIcon />
           </IconButton>
+          <Typography variant="h6" color="inherit" className={classes.grow}>
+            Form Personal Details
+          </Typography>
         </Toolbar>
       </AppBar>
-      <Typography variant="h6" color="inherit" className={classes.grow}>
-        Thank You For Your Submission. You Will be Further Notified via Email.
-      </Typography>
+      <Card className={classes.card}>
+        <CardContent>
+          <Typography
+            className={classes.title}
+            color="textSecondary"
+            gutterBottom
+          >
+            Thank You For Your Submission. You Will Be Further Notified Via
+            Email.
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Button size="small">Learn More</Button>
+        </CardActions>
+      </Card>
     </div>
   );
 }

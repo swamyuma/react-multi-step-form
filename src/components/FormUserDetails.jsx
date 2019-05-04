@@ -83,10 +83,11 @@ function FormUserDetails(props) {
           className={classes.textField}
           value={firstName}
           onChange={e => handleChange(e)}
-          placeholder="First name"
+          label="First name"
           type="text"
           name="firstName"
           required
+          autoComplete="off"
         />
         <br />
         <br />
@@ -94,10 +95,11 @@ function FormUserDetails(props) {
           className={classes.textField}
           value={lastName}
           onChange={e => handleChange(e)}
-          placeholder="Last name"
+          label="Last name"
           type="text"
           name="lastName"
           required
+          autoComplete="off"
         />
         <br />
         <br />
@@ -105,10 +107,11 @@ function FormUserDetails(props) {
           className={classes.textField}
           value={email}
           onChange={e => handleChange(e)}
-          placeholder="Email address"
+          label="Email address"
           type="email"
           name="email"
           required
+          autoComplete="off"
         />
         <br />
         <br />
