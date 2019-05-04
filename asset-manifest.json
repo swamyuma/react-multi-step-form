@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.584f321a.chunk.css",
-    "main.js": "/static/js/main.180d1425.chunk.js",
-    "main.js.map": "/static/js/main.180d1425.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.b41502e9.chunk.js": "/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/static/js/2.b41502e9.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.5c249522d8e0baf721fc64de39c8271f.js": "/precache-manifest.5c249522d8e0baf721fc64de39c8271f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.584f321a.chunk.css.map": "/static/css/main.584f321a.chunk.css.map",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/react-multi-step-form/static/css/main.bf69e694.chunk.css",
+    "main.js": "/react-multi-step-form/static/js/main.db8bf685.chunk.js",
+    "main.js.map": "/react-multi-step-form/static/js/main.db8bf685.chunk.js.map",
+    "runtime~main.js": "/react-multi-step-form/static/js/runtime~main.ba3347d7.js",
+    "runtime~main.js.map": "/react-multi-step-form/static/js/runtime~main.ba3347d7.js.map",
+    "static/js/2.5567efe0.chunk.js": "/react-multi-step-form/static/js/2.5567efe0.chunk.js",
+    "static/js/2.5567efe0.chunk.js.map": "/react-multi-step-form/static/js/2.5567efe0.chunk.js.map",
+    "index.html": "/react-multi-step-form/index.html",
+    "precache-manifest.e2f5db2601b7a078582f53bfea9d664b.js": "/react-multi-step-form/precache-manifest.e2f5db2601b7a078582f53bfea9d664b.js",
+    "service-worker.js": "/react-multi-step-form/service-worker.js",
+    "static/css/main.bf69e694.chunk.css.map": "/react-multi-step-form/static/css/main.bf69e694.chunk.css.map"
   }
 }
