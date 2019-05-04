@@ -68,7 +68,7 @@ function Success(props) {
         </Toolbar>
       </AppBar>
       <Typography variant="h6" color="inherit" className={classes.grow}>
-        Thank You For Your Submission. You Will here Further Notified via Email.
+        Thank You For Your Submission. You Will be Further Notified via Email.
       </Typography>
     </div>
   );
